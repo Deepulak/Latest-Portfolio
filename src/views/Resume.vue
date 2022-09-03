@@ -221,11 +221,11 @@ export default {
       buffer10: 0,
       buffer11: 0,
       buffer12: 0,
-      buffer13: 0;
-      buffer14: 0;
-      buffer15: 0;
-      buffer16: 0;
-      buffer17: 0;
+      buffer13: 0,
+      buffer14: 0,
+      buffer15: 0,
+      buffer16: 0,
+      buffer17: 0,
       bufferValue: 100,
       interval: 0
     };
