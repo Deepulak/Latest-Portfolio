@@ -117,13 +117,13 @@
           <span class="blue--text">Skills</span>
         </h2>
         <br>
-        <strong>VUE.js/strong>
+        <strong>VUE.js</strong>
         <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>NEXT.js/strong>
+        <strong>NEXT.js</strong>
         <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>React.js/strong>
+        <strong>React.js</strong>
         <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>Java/strong>
+        <strong>Java</strong>
         <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
         <strong>HTML/CSS</strong>
         <v-progress-linear v-model="buffer2" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
