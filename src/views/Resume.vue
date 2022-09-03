@@ -117,10 +117,20 @@
           <span class="blue--text">Skills</span>
         </h2>
         <br>
-        <strong>VUE/NEXT</strong>
+        <strong>VUE.js/strong>
+        <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
+        <strong>NEXT.js/strong>
+        <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
+        <strong>React.js/strong>
+        <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
+        <strong>Java/strong>
         <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
         <strong>HTML/CSS</strong>
         <v-progress-linear v-model="buffer2" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
+        <strong>Kotlin</strong>
+        <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
+        <strong>Firebase</strong>
+        <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
         <strong>JavaScript</strong>
         <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
         <strong>React Native</strong>
@@ -211,6 +221,11 @@ export default {
       buffer10: 0,
       buffer11: 0,
       buffer12: 0,
+      buffer13: 0;
+      buffer14: 0;
+      buffer15: 0;
+      buffer16: 0;
+      buffer17: 0;
       bufferValue: 100,
       interval: 0
     };
@@ -226,18 +241,23 @@ export default {
   methods: {
     startBuffer() {
       this.interval = setInterval(() => {
-        this.buffer1 = 90;
-        this.buffer2 = 85;
-        this.buffer3 = 80;
-        this.buffer4 = 80;
-        this.buffer5 = 90;
-        this.buffer6 = 75;
+        this.buffer1 = 70;
+        this.buffer2 = 60;
+        this.buffer3 = 85;
+        this.buffer4 = 70;
+        this.buffer5 = 85;
+        this.buffer6 = 65;
         this.buffer7 = 80;
-        this.buffer8 = 60;
-        this.buffer9 = 60;
-        this.buffer10 = 70;
-        this.buffer11 = 80;
-        this.buffer12 = 70;
+        this.buffer8 = 80;
+        this.buffer9 = 80;
+        this.buffer10 = 90;
+        this.buffer11 = 75;
+        this.buffer12 = 80;
+        this.buffer13 = 60;
+        this.buffer14 = 60;
+        this.buffer15 = 70;
+        this.buffer16 = 80;
+        this.buffer17 = 70;
       }, 800);
     }
   }
