@@ -120,37 +120,37 @@
         <strong>VUE.js</strong>
         <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
         <strong>NEXT.js</strong>
-        <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>React.js</strong>
-        <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>Java</strong>
-        <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>HTML/CSS</strong>
         <v-progress-linear v-model="buffer2" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>Kotlin</strong>
+        <strong>React.js</strong>
         <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>Firebase</strong>
-        <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>JavaScript</strong>
-        <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>React Native</strong>
+        <strong>Java</strong>
         <v-progress-linear v-model="buffer4" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>AWS</strong>
+        <strong>HTML/CSS</strong>
         <v-progress-linear v-model="buffer5" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>TypesScript</strong>
+        <strong>Kotlin</strong>
         <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>Python</strong>
+        <strong>Firebase</strong>
         <v-progress-linear v-model="buffer7" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>C</strong>
+        <strong>JavaScript</strong>
         <v-progress-linear v-model="buffer8" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>C++</strong>
+        <strong>React Native</strong>
         <v-progress-linear v-model="buffer9" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>Django</strong>
+        <strong>AWS</strong>
         <v-progress-linear v-model="buffer10" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>MongoDB</strong>
+        <strong>TypesScript</strong>
         <v-progress-linear v-model="buffer11" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
-        <strong>MySQL</strong>
+        <strong>Python</strong>
         <v-progress-linear v-model="buffer12" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
+        <strong>C</strong>
+        <v-progress-linear v-model="buffer13" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
+        <strong>C++</strong>
+        <v-progress-linear v-model="buffer14" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
+        <strong>Django</strong>
+        <v-progress-linear v-model="buffer15" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
+        <strong>MongoDB</strong>
+        <v-progress-linear v-model="buffer16" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
+        <strong>MySQL</strong>
+        <v-progress-linear v-model="buffer17" :buffer-value="bufferValue" color="#4201FF" height="16"></v-progress-linear>
       </v-flex>
       <div class="mt-4 pt-2">
         <!-- <v-btn
